@@ -44,6 +44,9 @@ Have quite a few color variables at the top that, if you had other SCSS files, y
 
 Check out how to use [`mixins`](http://sass-lang.com/guide) and utilize one called `sideMargin` to set both the left and right margins of the container class. Since the class lacks 40 pixels from the total width, try setting containers to *auto* -matically center in the page. Try playing with the container width and different values and different values passed into `sideMargin`.
 
+## Syntactic Sugar
+Try playing around with the [`& > ~`](https://css-tricks.com/the-sass-ampersand/) Sass operators and see how they work in Sass!
+
 ## Challenge
 
 Finish early? Figure out how to compile all of your compiled CSS code into a single `styles.css` file.
