@@ -1,0 +1,19 @@
+.container {
+  width: calc(100% - 40px);
+  background-color: pink;
+  margin-left: auto;
+  margin-right: auto; }
+  .container ul, .container ol {
+    color: #b22222; }
+  .container ul {
+    font-family: sans-serif; }
+  .container ol {
+    font-family: monospace; }
+
+.first p {
+  color: blue; }
+
+.second p {
+  color: orange; }
+
+/*# sourceMappingURL=styles.css.map */
