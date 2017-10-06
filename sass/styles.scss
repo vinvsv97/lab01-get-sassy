@@ -1,9 +1,44 @@
 // Put imports here!
-
+@import 'colors';
 
 
 // Put any variable declarations here!
+@mixin sideMargin($margin){
+    margin-left: $margin;
+    margin-right: $margin;
+}
 
-
+@mixin displayFlex{
+    display: flex;
+    justify-content: start;
+}
 
 // Put your actual Sassy CSS code here!
+.container {
+    width: calc(100% - 40px);
+    @include sideMargin(10px);
+    ul, ol {
+        color: $red;
+    }
+
+    ul{
+        font-family: sans-serif;
+    }
+
+    ol{
+        font-family: monospace;
+    }
+
+
+    &.first{
+        p{
+            background-color: $blue;
+        }
+    }
+
+    &.second{
+        p{
+            background-color: $orange;
+        }
+    }
+}

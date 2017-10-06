@@ -1,0 +1,16 @@
+.container {
+  width: calc(100% - 40px);
+  margin-left: 10px;
+  margin-right: 10px; }
+  .container ul, .container ol {
+    color: red; }
+  .container ul {
+    font-family: sans-serif; }
+  .container ol {
+    font-family: monospace; }
+  .container.first p {
+    background-color: blue; }
+  .container.second p {
+    background-color: orange; }
+
+/*# sourceMappingURL=styles.css.map */
